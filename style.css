@@ -149,7 +149,7 @@ footer a:hover {
     font-weight: bold;
     margin: 20px 0;
 }
-.tren-pic-all, .obuka, .obuka h2, .tren-img, .uslov-inp, .uslov-onl {
+.tren-pic-all, .obuka, .obuka h2, .tren-img, .uslov-inp, .uslov-onl, .faq{
     margin-top: 30px;
 }
 .pic-tren {
@@ -169,6 +169,33 @@ footer a:hover {
 .obuka h2 {
     margin-bottom: 30px;
 }
-.bookm-faq {
-
+.faq-tabA {
+    padding-top: 15px;
+}
+.faq-tab {
+    border: 1px solid #ddd;
+}
+.faq-tab li {
+    float: none;
+}
+.faq-tab li.active {
+    background-color: #efefef;
+}
+.faq-tab li.active a{
+    background-color: transparent;
+    color: orange;
+}
+.faq-tab li a, .faq-tab li.active a {
+    border: none;
+    color: orange;
+}
+.faq-tab li.active a:hover{
+    background-color: transparent;
+    border: none;
+    color: orange;
+}
+.faq-tab li.active a:focus{
+    background-color: transparent;
+    color: #eb5d1e;
+    border: none;
 }
